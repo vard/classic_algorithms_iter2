@@ -30,7 +30,5 @@ namespace classic_algorithms{
         InvalidArgEx();
         explicit InvalidArgEx(const std::string& argument);
         InvalidArgEx(const std::string& argument, const std::string& filename, const std::string& functionName, int32_t lineNumber);
-        
     };
-
 }
